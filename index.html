@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Algorithms Visualizer</h1>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <label for="arraySize">Array Size:</label>
+            <input type="number" id="arraySize" min="2" required>
+
+            <label for="minValue">Minimum Value:</label>
+            <input type="number" id="minValue" required>
+
+            <label for="maxValue">Maximum Value:</label>
+            <input type="number" id="maxValue" required>
+
+            <button onclick="generateArray()">Generate Array</button>
+        </div>
+
+        <!-- Results Table -->
+        <div class="results-section">
+            <h2>Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Algorithm</th>
+                        <th>Time Taken (ms)</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Insertion Sort</td>
+                        <td id="insertionTime">--</td>
+                        <td><button onclick="showArray('insertion')">Show Sorted Array</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quick Sort</td>
+                        <td id="quickTime">--</td>
+                        <td><button onclick="showArray('quick')">Show Sorted Array</button></td>
+                    </tr>
+                    <tr>
+                        <td>Heap Sort</td>
+                        <td id="heapTime">--</td>
+                        <td><button onclick="showArray('heap')">Show Sorted Array</button></td>
+                    </tr>
+                    <tr>
+                        <td>Counting Sort</td>
+                        <td id="countingTime">--</td>
+                        <td><button onclick="showArray('counting')">Show Sorted Array</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-section">
+            <h2>Original Array:</h2>
+            <pre id="originalArray"></pre>
+
+            <h2>Sorted Array:</h2>
+            <pre id="sortedArray"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
