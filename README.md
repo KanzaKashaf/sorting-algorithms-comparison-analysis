@@ -1,12 +1,12 @@
-# 📊 Interactive Sorting Algorithm Visualizer
+# Interactive Sorting Algorithm Visualizer
 
 An interactive web-based tool for generating random arrays, sorting them using different algorithms, and measuring their average execution time. The project showcases four popular sorting algorithms with performance metrics and allows users to view the sorted output directly in the browser.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-Developed as part of the **Design and Analysis of Algorithms** course at **National Textile University, Faisalabad**, this project enables users to:
+This project enables users to:
 
 - Generate arrays of custom size and value range.
 - Apply four different sorting algorithms.
@@ -15,17 +15,14 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## 👨‍💻 Group Members
+## Group Members
 
-- **Kanza Kashaf** — 22-NTU-CS-1350  
-- **Hassaan Raza** — 22-NTU-CS-1362  
-- **Program:** BSAI  
-- **Semester:** 6th  
-- **Instructor:** Sir Waqar Ahmad
+- **Kanza Kashaf** 
+- **Hassaan Raza** 
 
 ---
 
-## 🔢 Sorting Algorithms Implemented
+## Sorting Algorithms Implemented
 
 ### 1. Insertion Sort
 - Simple comparison-based sorting.
@@ -55,7 +52,7 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - Users enter:
   - Size of the array
@@ -66,7 +63,7 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## 📈 Sample Output (Time in ms)
+## Sample Output (Time in ms)
 
 | Size     | Insertion | Quick | Heap | Counting |
 |----------|-----------|-------|------|----------|
@@ -77,7 +74,7 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - **JavaScript (ES6+)**
   - Core logic and sorting algorithms
@@ -88,7 +85,7 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## 🧠 Learning Objectives
+## Learning Objectives
 
 - Compare sorting algorithm efficiency empirically.
 - Understand runtime implications of algorithm design.
@@ -96,23 +93,11 @@ Developed as part of the **Design and Analysis of Algorithms** course at **Natio
 
 ---
 
-## 🖥️ How to Run
+## How to Run
 
 1. Open the HTML file in a browser (Chrome recommended).
 2. Enter array size and value limits.
 3. Click **Generate** to create and sort the array.
 4. View performance times and sorted outputs.
-
----
-
-## 📜 License
-
-This project is intended for educational use only.
-
----
-
-## 🙌 Acknowledgments
-
-Special thanks to **Sir Waqar Ahmad** for mentorship and practical guidance in algorithm analysis.
 
 ---
